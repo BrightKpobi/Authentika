@@ -6,17 +6,17 @@ const products = [
     {
         title: "Unparalleled Sound",
         description: "Experience crystal-clear audio with premium headphones.",
-        src: "/headphones.jpg", // Ensure these are in your /public folder
+        src: "/img/item.png",
     },
     {
         title: "Stay Connected",
         description: "Compact and stylish earphones for every occasion.",
-        src: "/earphones.jpg",
+        src: "/img/item.png",
     },
     {
         title: "Power in Every Pixel",
         description: "Shop the latest laptops for work, gaming, and more.",
-        src: "/laptop.jpg",
+        src: "/img/item.png",
     },
 ]
 

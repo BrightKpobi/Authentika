@@ -43,7 +43,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
                         </div>
                         {/* Thumbnail Row */}
                         <div className="flex gap-4">
-                            <div className="w-24 h-24 relative rounded-2xl bg-[#F3F4F6] border-2 border-emerald-600 overflow-hidden cursor-pointer">
+                            <div className="w-24 h-24 relative rounded-2xl bg-[#F3F4F6] border-2 border-[#4cbe42] overflow-hidden cursor-pointer">
                                 <Image src={PRODUCT.image} alt="thumb" fill className="object-cover" />
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
                         <div className="flex items-center gap-3 mb-8">
                             <div className="flex">
                                 {[...Array(5)].map((_, i) => (
-                                    <Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-[#FF8A00] text-[#FF8A00]' : 'text-gray-200'}`} />
+                                    <Star key={i} className={`w-5 h-5 ${i < 4 ? 'fill-[#4cbe42] text-[#4cbe42]' : 'text-gray-200'}`} />
                                 ))}
                             </div>
                             <span className="text-sm font-medium text-gray-500 mt-1">(4.5)</span>
@@ -90,10 +90,10 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
                         {/* Action Buttons */}
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Button className="flex-1 h-16 rounded-2xl bg-[#F3F4F6] hover:bg-gray-200 text-gray-900 font-bold text-lg shadow-none transition-all">
+                            <Button className="flex-1 h-12 rounded-full bg-[#F3F4F6] hover:bg-gray-200 text-gray-900 font-bold text-lg shadow-none transition-all">
                                 Add to Cart
                             </Button>
-                            <Button className="flex-[2] h-16 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-lg shadow-none transition-all">
+                            <Button className="flex-[2] h-12 rounded-full bg-[#4cbe42] hover:bg-[#3da832] text-white font-bold text-lg transition-all">
                                 Buy now
                             </Button>
                         </div>

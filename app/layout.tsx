@@ -1,10 +1,6 @@
-
-
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-
-
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -13,8 +9,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Groceri ",
-  description: "Online Shopping made extremely easy",
+  title: "Authentika ",
+  description: "Your one-stop shop for all your needs",
 };
 
 export default function RootLayout({
@@ -24,11 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} antialiased`}>
-
-        {children}
-
-      </body>
+      <body className={`${outfit.variable} antialiased`}>{children}</body>
     </html>
   );
 }

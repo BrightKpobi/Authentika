@@ -24,7 +24,7 @@ const MOCK_USER = {
       total: 3450,
       trackingNumber: "GHP-001-992",
       items: [
-        { id: "1", name: "Kente Weave Overshirt", image: "/product1.jpg" },
+        { id: "1", name: "Kente Weave Overshirt", image: "/dresses/d2.jpg" },
       ],
     },
   ],

@@ -32,12 +32,11 @@ const FeaturedGrid = () => {
             modern minimalist. Each item reflects our commitment to authentic
             quality and timeless silhouette.
           </p>
-
-          <Link
-            href="/shop"
-            className="group flex items-center gap-3 font-bold bg-black text-white px-4 py-2 rounded-none uppercase transition-all">
-            Shop Now
-            <MoveRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          <Link href="/shop">
+            <button className="bg-black hover:bg-black/80 text-white px-10 py-3.5 text-[12px] font-bold cursor-pointer uppercase transition-colors group flex items-center gap-3 font-bold rounded-none transition-all">
+              Shop Now
+              <MoveRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </button>
           </Link>
         </div>
 

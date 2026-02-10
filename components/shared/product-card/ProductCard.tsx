@@ -63,7 +63,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             {product.category}
           </p>
         </div>
-        <p className="text-xs font-bold text-zinc-900">${product.price}</p>
+        <p className="text-xs font-bold text-zinc-900">¢{product.price}</p>
       </div>
     </div>
   );

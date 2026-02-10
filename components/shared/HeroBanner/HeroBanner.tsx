@@ -17,8 +17,8 @@ const HeroBanner = () => {
         />
       </div>
 
-      <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
-        <h1 className="text-white text-5xl md:text-7xl font-serif mb-6 animate-fade-in tracking-tight">
+      <div className="relative h-full flex font-bold flex-col items-center justify-center text-center px-6">
+        <h1 className="text-white text-5xl md:text-7xl mb-6 animate-fade-in tracking-tight">
           Authentika <br /> Online Shop
         </h1>
 
@@ -27,7 +27,7 @@ const HeroBanner = () => {
         </p>
 
         <Link href="/shop">
-          <button className="bg-white text-black px-10 py-3.5 text-[10px] font-bold uppercase hover:bg-zinc-200 transition-colors">
+          <button className="bg-white text-black px-10 py-3.5 text-[12px] font-bold cursor-pointer uppercase hover:bg-zinc-200 transition-colors">
             Explore Collection
           </button>
         </Link>

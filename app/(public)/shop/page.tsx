@@ -97,7 +97,7 @@ const ShopPage = () => {
           <div className="relative flex-1 max-w-[200px] md:max-w-sm">
             <Search className="absolute left-0 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-zinc-400" />
             <Input
-              placeholder="SEARCH..."
+              placeholder="Search Products..."
               className="pl-7 h-8 text-[10px] tracking-widest uppercase border-t-0 border-x-0 border-b border-zinc-200 rounded-none focus-visible:ring-0 focus-visible:border-black shadow-none bg-transparent"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}

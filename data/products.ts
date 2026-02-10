@@ -79,8 +79,8 @@ export const MOCK_PRODUCTS: Product[] = [
   },
   {
     id: "p7",
-    name: "Prism Clutch",
-    category: "Bags",
+    name: "Executive Shoe",
+    category: "Shoes",
     price: 320,
     description: "Structured clutch with sharp angles and a high-gloss finish.",
     images: ["/dresses/d9.jpg"],
@@ -90,8 +90,8 @@ export const MOCK_PRODUCTS: Product[] = [
   },
   {
     id: "p8",
-    name: "Equinox Sunglasses",
-    category: "Accessories",
+    name: "Equinox Leather bag",
+    category: "Bags",
     price: 210,
     description:
       "Bold rectangular frames in hand-polished acetate with UV protection.",
